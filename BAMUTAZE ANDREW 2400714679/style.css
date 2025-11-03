@@ -1,0 +1,626 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial BLACK, Helvetica, sans-serif;
+}
+.about {
+    font-family: Arial BLACK, Helvetica, sans-serif;
+    margin: 0%;
+    padding: 0;
+    line-height: 1.5;
+}
+
+.container {
+    
+    margin: width 10; height: 100px; 
+    padding: 0cap;
+}
+
+.navbar {
+    background-color: rgb(204, 204, 156);
+    padding: 10px;
+    box-shadow: 0cap;
+
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.navbar-brand {
+    color: black;
+    font-weight: bold;
+    font-size: medium;
+    text-decoration: none;
+}
+
+.nav-link{
+    color: dodgerblue;
+    text-decoration: none;
+}
+
+.nav-link.active {
+    font-weight: bold;
+}
+
+.hello {
+    background-color: rgba(191, 221, 226, 0.856);
+    color: rgb(41, 127, 153);
+    text-align: center;
+    padding: 0px;
+}
+
+.hello-image {
+    width: 50;
+    max-height: 100px;
+    margin-bottom: 10px;
+}
+
+.about {
+    text-align: left;
+    padding: 50;
+}
+
+.about-image {
+    width: 30%;
+    object-fit: scale-down;
+    margin-top: 40px;
+    max-height: 600px;
+}
+
+.about h2 {
+    margin-bottom: 20px;
+    font-size: medium;
+}
+
+.contact {
+    padding: 40px;
+    text-align: center;
+}
+
+.contact h2 {
+    margin-bottom: 30px;
+}
+
+.form-group{
+    margin-bottom: 40px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.form-group textarea{
+    width: 100%;
+    padding: 0cap;
+    border: 10;
+}
+
+.book-now {
+    background-color: red;
+    color: rgba(224, 159, 37, 0.822);
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 12px 25px;
+}
+
+.contact-info a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    
+}
+
+.social-links a {
+    text-decoration: none;
+    color: dodgerblue;
+}
+
+.contact {
+    background-color: whitesmoke;
+    
+}
+
+.about {
+    background-color: whitesmoke;
+}
+
+.logo-ssubi {
+    background-image: url('ssubi\ logo.png');
+    background-size: cover;
+    width: 200px;
+    height: 50px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 300px;
+    margin-top: 50px;
+  }
+  
+  .card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: darkgray;
+    width: 200px;
+    padding: 30px;
+  }
+  
+  .card h3 {
+    color: cadetblue;
+  }
+
+  .card {
+    width: 110px;
+  }
+  .card{
+    width: 50%;
+    object-fit: contain;
+    margin-top: 50px;
+    max-height: 300px;
+  }
+/* ------------------ General Styles ------------------ */
+body {
+    margin: 0;
+    font-family: 'Trebuchet MS', sans-serif;
+    background-color: #fafafa;
+    color: gray;
+  }
+  
+  h1, h2, h3 {
+    color: black;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    line-height: 1.6;
+  }
+  
+  /* ------------------ Navbar ------------------ */
+  header {
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+  }
+  
+  .navbar .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 20px;
+  }
+  
+  .logo-ssubi {
+    width: 80px;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .navbar-brand {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+  }
+  
+  .nav-item {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  .nav-link {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .nav-link:hover {
+    color: cadetblue;
+  }
+  
+  /* ------------------ Hello Section ------------------ */
+  .hello {
+    text-align: center;
+    padding: 80px 20px;
+    background-color: #fff;
+  }
+  
+  .hello-image {
+    width: 60%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 20px;
+    margin-bottom: 40px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+  }
+  
+  .hello h1 {
+    font-size: 2em;
+    color: cadetblue;
+  }
+  
+  /* ------------------ Features Section ------------------ */
+  .features {
+    text-align: center;
+    padding: 60px 30px;
+  }
+  
+  .features h2 {
+    color: black;
+    font-size: 1.8
+  }
+  /* ---------------- General Styles ---------------- */
+body {
+    margin: 0;
+    font-family: 'Trebuchet MS', sans-serif;
+    background-color: #fafafa;
+    color: gray;
+  }
+  
+  h1, h2, h3 {
+    color: black;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  /* ---------------- Navbar ---------------- */
+  header {
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+  }
+  
+  .navbar .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 20px;
+  }
+  
+  .navbar-brand {
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+  }
+  
+  .nav-item {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  .nav-link {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .nav-link:hover {
+    color: cadetblue;
+  }
+  
+  .logo-ssubi {
+    width: 80px;
+    height: auto;
+    border-radius: 50%;
+  }
+  
+  /* ---------------- Contact Section ---------------- */
+  .contact {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: white;
+  }
+  
+  .contact h2 {
+    color: cadetblue;
+    font-size: 1.8em;
+    margin-bottom: 30px;
+  }
+  
+  /* Form Styling */
+  .form-article {
+    max-width: 500px;
+    margin: 0 auto;
+    background: #f8f8f8;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-group {
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 14px;
+    font-family: 'Trebuchet MS', sans-serif;
+  }
+  
+  .form-group input:focus,
+  .form-group textarea:focus {
+    outline: none;
+    border-color: cadetblue;
+  }
+  
+  /* Submit Button */
+  .cta-button {
+    background-color: cadetblue;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .cta-button:hover {
+    background-color: #5f9ea0;
+  }
+  
+  /* Book Now Link */
+  .book {
+    margin-top: 30px;
+  }
+  
+  .book a {
+    background-color: cadetblue;
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .book a:hover {
+    background-color: #5f9ea0;
+  }
+  
+  /* ---------------- Footer ---------------- */
+  footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin-top: 40px;
+  }
+  
+  footer p {
+    margin: 10px 0;
+    font-size: 14px;
+  }
+  
+  .contact-info a,
+  .social-links a {
+    color: cadetblue;
+    text-decoration: none;
+    margin: 5px;
+    font-weight: bold;
+  }
+  
+  .contact-info a:hover,
+  .social-links a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Font Awesome Icons */
+  footer i {
+    color: cadetblue;
+    font-size: 22px;
+    margin: 0 10px;
+    transition: 0.3s;
+  }
+  
+  footer i:hover {
+    color: white;
+  }
+  
+  /* ---------------- Responsive Design ---------------- */
+  @media (max-width: 900px) {
+    .navbar .container {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .form-article {
+      width: 90%;
+      padding: 20px;
+    }
+  
+    .logo-ssubi {
+      width: 60px;
+    }
+  }
+  /* ---------------- About Section ---------------- */
+.about {
+    background-color: #fafafa;
+    text-align: center;
+    padding: 60px 20px;
+    font-family: 'Trebuchet MS', sans-serif;
+  }
+  
+  .about h2 {
+    color: cadetblue;
+    font-size: 2em;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  
+  /* Paragraph styling */
+  .about p {
+    color: gray;
+    line-height: 1.6;
+    font-size: 16px;
+    max-width: 800px;
+    margin: 0 auto 20px auto;
+    text-align: justify;
+  }
+  
+  /* Image grid styling */
+  .about-image {
+    width: 30%;
+    height: 250px;
+    object-fit: scale-down;
+    border-radius: 12px;
+    margin: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .about-image:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 900px) {
+    .about-image {
+      width: 90%;
+      height: 200px;
+    }
+  
+    .about p {
+      font-size: 15px;
+      text-align: left;
+      padding: 0 10px;
+    }
+  
+    .about h2 {
+      font-size: 1.5em;
+    }
+  }
+  /* ===== GENERAL ===== */
+body {
+    margin: 0;
+    font-family: 'Trebuchet MS', sans-serif;
+    background-color: #fafafa;
+    color: gray;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  /* ===== NAVBAR ===== */
+  header {
+    background-color: black;
+    padding: 15px 0;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar-brand {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .nav-menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-link {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.3s;
+  }
+  
+  .nav-link:hover {
+    color: cadetblue;
+  }
+  
+  .logo-ssubi {
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+  }
+  
+  /* ===== HERO SECTION ===== */
+  .hello {
+    text-align: center;
+    padding: 100px 20px;
+    background-color: white;
+  }
+  
+  .hello-image {
+    width: 150px;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .hello h1 {
+    color: cadetblue;
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .hello p {
+    color: gray;
+    font-size: 18px;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  
+  /* ===== FEATURES ===== */
+  .features {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #fafafa;
+  }
+  
+  .features h2 {
+    color: cadetblue;
+    font-size: 2em;
+    margin-bottom: 40px;
+  }
+  
+  .cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+  }
+  
+  .card {
+    background-color: white;
+    width: 300px;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+  }
